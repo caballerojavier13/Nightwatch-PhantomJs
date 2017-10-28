@@ -1,0 +1,26 @@
+20:56:48.867 INFO - Selenium build info: version: '3.6.0', revision: '6fbf3ec767'
+20:56:48.868 INFO - Launching a standalone Selenium Server
+2017-10-27 20:56:48.924:INFO::main: Logging initialized @709ms to org.seleniumhq.jetty9.util.log.StdErrLog
+20:56:49.083 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:56:49.153 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+20:56:49.158 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+20:56:49.159 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+20:56:49.241 INFO - Using the passthrough mode handler
+2017-10-27 20:56:49.341:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-10-27 20:56:49.409:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@3701eaf6{/,null,STARTING} has uncovered http methods for path: /
+2017-10-27 20:56:49.419:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3701eaf6{/,null,AVAILABLE}
+2017-10-27 20:56:49.460:INFO:osjs.AbstractConnector:main: Started ServerConnector@38fe26bf{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-10-27 20:56:49.462:INFO:osjs.Server:main: Started @1247ms
+20:56:49.462 INFO - Selenium Server is up and running
+2017-10-27 20:56:50.262:INFO:osjshC.ROOT:qtp739498517-9: org.openqa.selenium.remote.server.WebDriverServlet-5622fdf: Initialising WebDriverServlet
+20:56:50.367 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+20:56:50.369 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@37507d7a
+20:56:50.391 INFO - /session: Executing POST on /session (handler: BeginSession)
+20:56:50.517 INFO - Capabilities are: Capabilities {acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+20:56:50.518 INFO - Capabilities {acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+20:56:50.519 INFO - Capabilities {acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4) on port 2533
+Only local connections are allowed.

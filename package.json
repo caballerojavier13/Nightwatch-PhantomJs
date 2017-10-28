@@ -1,0 +1,20 @@
+{
+  "name": "unejemplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch",
+    "selenium": "./node_modules/selenium-standalone/bin/selenium-standalone  install",
+    "postinstall": "npm run selenium"
+  },
+  "author": "JairoAparicio",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "nightwatch": "^0.9.16",
+    "nightwatch-html-reporter": "^2.0.4",
+    "nightwatch-video-recorder": "^1.1.0",
+    "selenium-standalone": "^6.11.0"
+  }
+}

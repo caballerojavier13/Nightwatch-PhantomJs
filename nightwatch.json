@@ -1,0 +1,44 @@
+{
+  "globals_path": "globals.js",
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "pages",
+  "selenium" : { "start_process" : true,
+    "server_path" : "./node_modules/selenium-standalone/.selenium/selenium-server/3.6.0-server.jar",
+    "log_path" : "",
+    "host" : "127.0.0.1",
+    "port" : 4444,
+    "start_session" : true,
+    "cli_args" : { "webdriver.chrome.driver" : "./node_modules/selenium-standalone/.selenium/chromedriver/2.33-x64-chromedriver",
+      "webdriver.ie.driver" : "",
+      "webdriver.gecko.driver" : "./node_modules/selenium-standalone/.selenium/geckodriver/0.19.0-x64-geckodriver" } },
+  "test_settings": {
+    "default": {
+
+      "desiredCapabilities": { "browserName": "chrome",
+	"javascriptEnabled":true,
+	"acceptSslCerts":true
+	},
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "path": "screenshots"
+      },
+      "videos": {
+        "enabled": false,
+        "delete_on_success": false,
+        "path": "videos",
+        "format": "mp4",
+        "resolution": "1440x900",
+        "fps": 15,
+        "display": ":60",
+        "pixel_format": "yuv420p"
+      }
+
+
+    }
+
+  }
+}

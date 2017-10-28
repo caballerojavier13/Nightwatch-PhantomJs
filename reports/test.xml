@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="1.564" timestamp="Sat, 28 Oct 2017 00:51:08 GMT">
+  
+    <testcase name="Demo test Google" classname="test" time="1.564" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Demo test Google]:
+
+  Error: Command failed: ffmpeg -video_size 1440x900 -r 15 -f x11grab -i undefined:60 -pix_fmt yuv420p -loglevel error /home/osboxes/Public/nuestroejemplo/videos/test-2017-10-28T00-51-08.mp4
+[x11grab @ 0x55dd11aed960] Cannot open display undefined:60, error 1.
+undefined:60: Input/output error
+
+    at ChildProcess.exithandler (child_process.js:198:12)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:920:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
