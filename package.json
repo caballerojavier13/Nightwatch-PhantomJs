@@ -1,10 +1,10 @@
 {
   "name": "unejemplo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automation This README would normally document whatever steps are necessary to get your application up and running.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch",
+    "test": "nightwatch",
     "selenium": "./node_modules/selenium-standalone/bin/selenium-standalone  install",
     "postinstall": "npm run selenium"
   },
@@ -16,5 +16,13 @@
     "nightwatch-html-reporter": "^2.0.4",
     "nightwatch-video-recorder": "^1.1.0",
     "selenium-standalone": "^6.11.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jairoaparicio@bitbucket.org/jairoaparicio/nightwhatchpaisa.git"
+  },
+  "homepage": "https://bitbucket.org/jairoaparicio/nightwhatchpaisa#readme"
 }
